@@ -1,0 +1,81 @@
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FONTS */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Rubik:wght@300;400;600;700;800&display=swap');
+
+  /* MAIN SECTION */
+main .main-section {
+    width: 50%;
+    margin: auto;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .main-section .main-title {
+    font-size: 3em;
+    margin-bottom: 3.5%;
+}
+main .main-section .main-text {
+    font-size: 1.5em;
+    color: #9E9EA1;
+}
+main .main-section .main-img {
+    width: 50%;
+}
+main .main-section .main-img img {
+    width: 100%;
+}
+main .main-section .divider-text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2%;
+}
+main .main-section .divider-text .divider {
+    width: 20%;
+    height: 1px;
+    background-color: #9E9EA1;
+    margin-top: 3%;
+}
+main .main-section .divider-text .main-text-divider {
+    color: #9E9EA1;
+    font-size: 1.5em;
+    
+}
+main .main-section .main-input {
+    display: flex;
+    width: 100%;
+    gap: 3%;
+    margin-top: 2%;
+}
+main .main-section .main-input .main-input-text {
+    height: 2.5em;
+    padding: 1.5%;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    width: 100%;
+}
+main .main-section .main-input .main-icon {
+    font-size: 2.5em;
+    border: 1px solid #9E9EA1;
+    padding: 2.5% 3%;
+    border-radius: 10px;
+    color: #9E9EA1;
+}
+main .main-section .main-btn{
+    width: 100%;
+    height: 2em;
+    margin-top: 2%;
+    font-size: 2em;
+    border-radius: 10px;
+    background-color: #34834B;
+}
+
